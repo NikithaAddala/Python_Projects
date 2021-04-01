@@ -1,4 +1,4 @@
-# Web_Scraping
+# Personal_Projects
 
 Web_Scraping is my personal project using python.
 
