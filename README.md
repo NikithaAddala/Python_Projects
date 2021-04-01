@@ -1,28 +1,17 @@
 # Web_Scraping
 
-Personal_Project_1 using Python.
+Web_Scraping is my personal project using python.
 
-This file contains detailed explanation of each line used in the code.
+Web scraping is the process of using bots to extract data and content from webpages.
 
-1. "import requests 
-from bs4 import BeautifulSoup as bs" 
+Practical applications of web scraping are:
 
-Libraries have been imported: requests and BeautifulSoup (as bs).
-Library requests: this library allows a user to send HTTP requests easily. It is one of the most downloaded Python package. 
-Library BeautifulSoup: it is used for pulling data from HTML and XML files. A parser is used to navigate, search and modify the parse tree.
+0. Gathering resume of candidates with a specific skill.
 
-2. github_user = input('Input Github User:')
-A username is taken as the input.
+1. Extracting tweets from twitter with specific hashtags.
 
-3. url = 'https://github.com/'+github_user
-'+github_user' is given for a dynamaic approach.
+2. Lead generation in marketing.
 
-4. r = requests.get(url)
-to request (get) data from the server using requests package.
+3. Scraping product details and reviews from e-commerce websites.
 
-5. soup = bs(r.content, 'html.parser')
-
-6. profile_image = soup.find('img', {'alt' : 'Avatar'})['src']
-
-7. print(profile_image)
-Displays the profile image of the requested github user.
+4. widely used in natural language processing for extracting text from the websites for training a deep learning model.
