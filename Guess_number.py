@@ -1,15 +1,15 @@
 import random
 
-def guess(x):
-    random_number = random.randint(1, x)
+def guess(p,q):
+    random_number = random.randint(p, q)
     guess = 0 
     while guess != random_number:
-        guess = int(input(f"Guess a number between 1 and {x}: "))
+        guess = int(input(f"Guess a number between {p} and {q}: "))
         if guess < random_number:
-            print("Too low. Try another guess!")
+            print("Try a higher guess!")
         elif guess > random_number:
-            print("Too high. Try another guess!")
+            print("Try a lower guess!")
     
-    print(f"Your guess {random_number} is correct ")
+    print(f"Hurrrraaaayyy!! Your guess {random_number} is correct!")
 
-guess(int(input("Enter range: ")))
+guess(int(input("Enter lower range: ")), int(input("Enter upper range: ")))
