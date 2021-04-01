@@ -1,17 +1,15 @@
-# Web_Scraping
+# Personal_Projects
 
-Web_Scraping is my personal project using python.
+List of personal python projects I shall be working on:
 
-Web scraping is the process of using bots to extract data and content from webpages.
+1. Web Scraping.
 
-Practical applications of web scraping are:
+2. Renaming Bulk Files.
 
-0. Gathering resume of candidates with a specific skill.
+3. Obtaining Weather information.
 
-1. Extracting tweets from twitter with specific hashtags.
+4. Countdown Times.
 
-2. Lead generation in marketing.
+5. Password Generator
 
-3. Scraping product details and reviews from e-commerce websites.
-
-4. widely used in natural language processing for extracting text from the websites for training a deep learning model.
+6. QR Code (Encoder and Decoder).
