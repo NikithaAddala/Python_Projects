@@ -12,4 +12,4 @@ def guess(p,q):
     
     print(f"Hurrrraaaayyy!! Your guess {random_number} is correct!")
 
-guess(int(input("Enter lower range: ")), int(input("Enter upper range: ")))
+guess(int(input("Enter lower range: ")), int(input  ("Enter upper range: ")))
