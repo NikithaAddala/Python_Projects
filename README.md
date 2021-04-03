@@ -1,17 +1,17 @@
 # Personal_Projects
 
-List of personal python projects I shall be working on:
+List of personal python projects I worked on:
 
 1. Web Scraping.
 
-2. Guessing the computer's number
+2. Guessing the computer's number.
 
-3. Renaming Bulk Files.
+3. Guessing the User's number.
 
-4. Obtaining Weather information.
+4. Renaming Bulk Files.
 
-5. Countdown Times.
+5. Obtaining Weather information.
 
-6. Password Generator
+6. Countdown Timer.
 
-7. QR Code (Encoder and Decoder).
+7. Password Generator.
